@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --BtnColor: hsl(217, 28%, 15%);
+  --MainBackground: hsl(218, 28%, 13%);
+  --FooterBackground: hsl(216, 53%, 9%);
+  --TestimonialsBackground: hsl(219, 30%, 18%);
+  --Cyan: hsl(188, 68%, 64%);
+  --Blue: hsl(198, 60%, 50%);
+  --LightRed: hsl(0, 100%, 63%);
+  --White: hsl(0, 0%, 100%);
+}
+
+/* GLOBAL STYLES */
+
+h2,
+h3,
+a,
+input {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+h2,
+p {
+  line-height: 1.5em;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rounded {
+  width: 85%;
+  max-width: 300px;
+  height: 50px;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+}
+
+.btn {
+  background-image: linear-gradient(to right, var(--Cyan), var(--Blue));
+}
+
+.lg-img {
+  width: 100%;
+}
+
+/* END OF GLOBAL STYLES */
+
+.main-container {
+  background-color: var(--MainBackground);
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 25px 15px;
+}
+
+.logo-container {
+  max-width: 100px;
+}
+
+.header-logo {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+.navbar a {
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+/* END OF HEADER */
+/* HERO */
+
+.hero-container {
+  text-align: center;
+  padding: 30px 0 100px 0;
+}
+
+.hero-container h2 {
+  margin: 25px 0;
+}
+
+.hero-container p {
+  margin: 25px 0;
+}
+
+.get-started {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* END OF HERO */
+/* FEATURES */
+
+.features-container {
+  padding-bottom: 100px;
+}
+
+.feature {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.feature h3 {
+  margin: 25px 0 15px 0;
+}
+
+/* END OF FEATURES */
