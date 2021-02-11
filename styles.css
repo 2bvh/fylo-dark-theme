@@ -22,7 +22,7 @@ h3,
 a,
 input {
   font-family: "Raleway", sans-serif;
-  color: white;
+  color: var(--White);
 }
 
 h2,
@@ -33,7 +33,7 @@ p {
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: white;
+  color: var(--White);
 }
 
 a {
@@ -41,8 +41,6 @@ a {
 }
 
 .rounded {
-  width: 85%;
-  max-width: 300px;
   height: 50px;
   margin: auto;
   font-size: 14px;
@@ -67,7 +65,7 @@ a {
 }
 
 main {
-  width: 80%;
+  width: 82%;
   margin: auto;
 }
 
@@ -118,6 +116,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 85%;
+  max-width: 300px;
 }
 
 /* END OF HERO */
@@ -137,3 +137,170 @@ header {
 }
 
 /* END OF FEATURES */
+/* PRODUCT DESCRIPTION */
+
+.product-desc-container {
+  padding-bottom: 100px;
+}
+
+.product-desc-container h3 {
+  margin: 50px 0 15px 0;
+}
+
+.product-desc-container p {
+  margin: 15px 0;
+}
+
+.product-desc-link {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding-bottom: 5px;
+  font-size: 14px;
+  color: hsl(176, 68%, 64%);
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.product-desc-link img {
+  margin-left: 5px;
+}
+
+/* END OF PRODUCT DESCRIPTION */
+/* TESTIMONIALS */
+
+.testimonials-container {
+  margin-bottom: 300px;
+}
+
+.quotes {
+  width: 25px;
+}
+
+.testimonial {
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: var(--TestimonialsBackground);
+}
+
+.testimonial-text {
+  font-size: 12px;
+  line-height: 2em;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.profile-img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.name {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.occupation {
+  font-size: 10px;
+}
+
+/* END OF TESTIMONIALS */
+/* EARLY ACCESS */
+
+.early-access-container {
+  width: 100%;
+  margin: -250px 0 100px 0;
+  padding: 30px 20px;
+  text-align: center;
+  background-color: var(--BtnColor);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+  z-index: 999;
+}
+
+.early-access-container h3 {
+  font-size: 16px;
+}
+
+.early-access-container p {
+  margin: 15px 0;
+}
+
+.form-field input {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#email::placeholder {
+  font-size: 10px;
+  color: lightgrey;
+  padding-left: 25px;
+}
+
+/* END OF EARLY ACCESS */
+/* FOOTER */
+
+footer {
+  padding: 100px 25px 50px 25px;
+  background-color: var(--FooterBackground);
+  z-index: -998;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.contact-info-container {
+  margin-bottom: 50px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 25px;
+}
+
+.contact-info p {
+  margin-left: 15px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.footer-links a {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.social-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.social-icon-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  margin: 0 5px;
+  border: thin solid var(--White);
+  border-radius: 100%;
+}
+
+.social-icon-container i {
+  margin-bottom: -1px;
+  font-size: 12px;
+}
+
+/* END OF FOOTER */

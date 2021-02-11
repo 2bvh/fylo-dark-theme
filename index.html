@@ -111,51 +111,60 @@
             Securely share files and folders with friends, family and colleagues
             for live collaboration. No email attachments required.
           </p>
-          <a href="#"
-            >See how Fylo works <img src="images/icon-arrow.svg" alt=""
-          /></a>
+          <a href="#" class="product-desc-link">
+            See how Fylo works
+            <img src="images/icon-arrow.svg" alt="" />
+          </a>
         </div>
         <div class="testimonials-container">
-          <img src="images/bg-quotes.png" alt="" />
+          <img src="images/bg-quotes.png" alt="" class="quotes" />
           <div class="testimonial">
-            <p>
+            <p class="testimonial-text">
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
               collaboration machine.
             </p>
             <div class="profile-info">
               <img src="images/profile-1.jpg" alt="" class="profile-img" />
-              <p class="name">Satish Patel</p>
-              <p class="occupation">Founder & CEO, Huddle</p>
+              <div class="profile-text-container">
+                <p class="name">Satish Patel</p>
+                <p class="occupation">Founder & CEO, Huddle</p>
+              </div>
             </div>
           </div>
           <div class="testimonial">
-            <p>
+            <p class="testimonial-text">
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
               collaboration machine.
             </p>
             <div class="profile-info">
               <img src="images/profile-2.jpg" alt="" class="profile-img" />
-              <p class="name">Bruce McKenzie</p>
-              <p class="occupation">Founder & CEO, Huddle</p>
+              <div class="profile-text-container">
+                <p class="name">Bruce McKenzie</p>
+                <p class="occupation">Founder & CEO, Huddle</p>
+              </div>
             </div>
           </div>
           <div class="testimonial">
-            <p>
+            <p class="testimonial-text">
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
               collaboration machine.
             </p>
             <div class="profile-info">
               <img src="images/profile-3.jpg" alt="" class="profile-img" />
-              <p class="name">Iva Boyd</p>
-              <p class="occupation">Founder & CEO, Huddle</p>
+              <div class="profile-text-container">
+                <p class="name">Iva Boyd</p>
+                <p class="occupation">Founder & CEO, Huddle</p>
+              </div>
             </div>
           </div>
         </div>
+      </main>
+      <footer>
         <div class="early-access-container">
-          <h2>Get early access today</h2>
+          <h3>Get early access today</h3>
           <p>
             It only takes a minute to sign up and our free starter tier is
             extremely generous. If you have any questions, our support team
@@ -163,7 +172,13 @@
           </p>
           <form action="/" method="post" id="get-started">
             <div class="form-field">
-              <input type="text" name="email" class="rounded" id="email" />
+              <input
+                type="text"
+                name="email"
+                class="rounded"
+                id="email"
+                placeholder="email@example.com"
+              />
               <small></small>
             </div>
             <div class="form-field">
@@ -176,22 +191,39 @@
             </div>
           </form>
         </div>
-      </main>
-      <footer>
         <div class="contact-info-container">
+          <img src="images/logo.svg" alt="Fylo logo" class="footer-logo" />
           <div class="contact-info">
-            <img src="images" alt="" class="contact-icon" />
+            <div class="icon-container">
+              <img
+                src="images/icon-location.svg"
+                alt="location icon"
+                class="contact-icon"
+              />
+            </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
           <div class="contact-info">
-            <img src="images" alt="" class="contact-icon" />
+            <div class="icon-container">
+              <img
+                src="images/icon-phone.svg"
+                alt="phone icon"
+                class="contact-icon"
+              />
+            </div>
             <p>+1-543-123-4567</p>
           </div>
           <div class="contact-info">
-            <img src="images" alt="" class="contact-icon" />
+            <div class="icon-container">
+              <img
+                src="images/icon-email.svg"
+                alt="email icon"
+                class="contact-icon"
+              />
+            </div>
             <p>example@fylo.com</p>
           </div>
         </div>
@@ -207,9 +239,9 @@
           <a href="#">Privacy</a>
         </div>
         <div class="social-icon-container">
-          <a class="fab fa-facebook-square"></a>
-          <a class="fab fa-instagram"></a>
-          <a class="fab fa-twitter-square"></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
       </footer>
     </div>
